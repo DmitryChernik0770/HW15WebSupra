@@ -17,9 +17,10 @@ body {
 
 body {
   background-image: url("../image/photo5.jpg");
-  background-size: cover;
+  background-size: 127% 100vh;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 main {
