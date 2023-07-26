@@ -1,0 +1,62 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-image: url("../image/photo5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 800px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+footer {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+a[href="#top"] {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+a[href="#top"]:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
